@@ -65,26 +65,43 @@ button {
   cursor: pointer;
 }
 
-.container-info {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .login-facebook {
-  text-decoration: none;
-  color: #0095f6;
-  font-size: 15px;
-  margin-top: 30px;
+  color: #385185;
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
-.remember-password {
-  text-decoration: none;
-  font-size: 14px;
-  color: #192569;
+.forgot-password {
+  color: #385185;
   text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.registration-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #dbdbdb;
+}
+
+.paragrafo-cadastro {
+  font-size: 14px;
+}
+
+.link-cadastro {
+  color: #0095f6;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 5px;
+  cursor: pointer;
 }
 
 .or {
@@ -101,4 +118,27 @@ button {
 
 .or span {
   color: #919191;
+}
+
+.box-app {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.paragrafo-app {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logo-app {
+  width: 150px;
+  cursor: pointer;
+}
+
+@media (max-width: 590px) {
+  .img-box {
+    display: none;
+  }
 }
